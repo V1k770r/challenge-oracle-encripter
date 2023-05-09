@@ -1,0 +1,22 @@
+
+.swal2-title {
+  font-size: 3.875em;
+}
+
+.swal2-styled.swal2-confirm:hover {
+  transform: scale(1.2); 
+}
+
+.swal2-styled.swal2-confirm {
+  background-color: #0A3871 ;
+}
+
+.swal2-popup {
+  border-radius: 20px;
+  background: #fff;
+}
+
+
+.swal2-popup {
+  width: 55em;
+}

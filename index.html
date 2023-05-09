@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENCRYPTER</title>
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="./styles/sweetalert2.css">
+</head>
+<body>
+
+    <header>
+        <a href="https://www.aluracursos.com/?gclid=Cj0KCQjw3a2iBhCFARIsAD4jQB1ABtDfE6V3jAz4vHBXyqhZC7hOYEcoJ87ThJKhIRpfKJBQnG3E2yUaAsXiEALw_wcB" target="_blank"><img src="./assets/icons/alura.png" alt="" class="logo" ></a>
+    </header>
+
+    <main>
+        <section class="box-left">
+            <form action="" id="box">
+                <div class="insert-text">
+                    <textarea id="text" placeholder="Ingrese el texto aqui"></textarea>
+                </div>
+                <div class="advice" onclick="updatePage()">
+                    <img src="./assets/icons/simbolo.png" alt="">
+                    <p>Solo letras minúsculas y sin acentos.      
+                    </p>
+                </div>
+                <div class="main-buttons">
+                    <div>
+                        <button type="submit" onclick="encrypt()" class="encriptar"><img src="./assets/icons/lock-solid.svg">Encriptar!</button>
+                    </div>
+                    <div>
+                        <button type="submit" onclick="decrypt()" class="desencriptar"> <img src="./assets/icons/lock-open-solid.svg">Desencriptar!</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+        <section class="box-right">    
+                <div class="copy-of-text">
+                    
+                    <div>
+                        <textarea id="show-text" name="" placeholder=" "></textarea>
+                    </div>
+                    <div>
+                        <button id="myButton" type="submit" onclick="copy()" class="copiar"> <img src="./assets/icons/copy-regular.svg" >Copiar!</button>
+                    </div> 
+                    <div id="hide">
+                        <div class="muñeco">
+                            <img src="./assets/img/Muñeco.png" alt="">
+                        </div>
+                        <div>    
+                            <p>Ningún mensaje fue <br>encontrado</p>
+                        </div>    
+                            <p class="advice">Ingrese el texto que desees encriptar o <br>desencriptar
+                            </p>    
+                        </div>
+                    </div>
+        </section>
+    </main>
+
+    <footer>
+        <h2 class="creditos">
+            Copyright @ 2023 Victor Ovalle <br>
+            <strong>ONEG5 Student LinkedIn</strong> <a href="https://www.linkedin.com/in/victor-ovalle-porras-ti/" target="_blank"><img src="./assets/icons/likenin.png" alt=""></a> <strong>GitHub</strong><a href="https://github.com/V1k770r" target="_blank"><img src="./assets/icons/github.png" alt=""></a>
+        </h2>
+    </footer>
+
+    <script src="index.js"></script>
+    
+</body>
+</html>
