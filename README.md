@@ -8,7 +8,6 @@
 
 > ***Esta aplicación cuenta con un diseño responsive para su visualización en un ordenador de escritorio, en una tablet y un celular; con media query de 1440px, 768px y 375px respectivamente.***
 
-
 ## CONDICIONES
 
 > ***Cabe resaltar que la aplicación solo pérmite el ingreso de letras minúsculas y sin acentos; ni permite el uso de caracteres especiales. Por lo que la aplicacion indicara un mensaje de error si no se cumplen con estas condiciones.*** 
