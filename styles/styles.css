@@ -15,7 +15,7 @@
 html{
     font-size: 62.5%;
     background-color: var(--lightblue); 
-    background-image: url(/assets/img/alura-e1584016996575.png); 
+    background-image: url(../assets/img/alura-e1584016996575.png); 
     background-position: center;    
     background-size: 25%;
     background-repeat: no-repeat;
